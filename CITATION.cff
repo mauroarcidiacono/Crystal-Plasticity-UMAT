@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Crystal Plasticity UMAT for Abaqus FEA"
+message: "If you use this software, please cite it as below."
+type: software
+version: "v1.0.0"
+doi: 10.5281/zenodo.18732831
+repository-code: "https://github.com/mauroarcidiacono/Crystal-Plasticity-UMAT"
+license: GPL-3.0
+
+authors:
+  - family-names: Arcidiacono
+    given-names: Mauro Francisco
+    orcid: "https://orcid.org/0000-0003-3215-6766"
+    affiliation: "University of Strathclyde"
+
+  - family-names: Rahimi
+    given-names: Salaheddin
+    orcid: "https://orcid.org/0000-0001-6461-988X"
+    affiliation: "University of Strathclyde"
