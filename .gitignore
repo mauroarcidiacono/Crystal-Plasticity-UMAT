@@ -1,0 +1,47 @@
+# Build folders
+/build/
+/build*/
+
+# CMake cache and files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+install_manifest.txt
+CTestTestfile.cmake
+Testing/
+
+# Compiled object files
+*.o
+*.obj
+
+# Compiled libraries
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+*.mod
+*.smod
+
+# Executables
+*.exe
+*.out
+
+# Fortran module files
+*.mod
+*.MOD
+*.smod
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*~
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
