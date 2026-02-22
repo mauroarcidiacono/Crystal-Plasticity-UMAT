@@ -1,4 +1,6 @@
 # Crystal-Plasticity-UMAT
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.18732831-blue)](https://doi.org/10.5281/zenodo.18732831) [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 Crystal plasticity UMAT for finite element analysis in Abaqus FEA.
 
 The repository contains an Abaqus FEA UMAT and an emulator file written in Fortran90. It is possible to use the emulator to test the UMAT outside of Abaqus FEA. 
@@ -76,3 +78,22 @@ The example material parameter file (`cp_params.csv`) and the single-element val
 ## Testing
 
 Unit tests for key numerical subroutines are provided. To run the tests and validate the subroutines, refer to the `README.md` inside the `/tests` directory for step-by-step instructions.
+
+## Cite this repository
+
+If you use this code in your work, please cite it using the following Zenodo record:
+
+**DOI:** [10.5281/zenodo.18732831](https://doi.org/10.5281/zenodo.18732831)
+
+### BibTeX
+
+```bibtex
+@software{arcidiacono2026crystal,
+  author    = {Arcidiacono, Mauro F. and Rahimi, Salaheddin},
+  title     = {Crystal Plasticity UMAT for Abaqus FEA},
+  version   = {v1.0.0},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.18732831},
+  url       = {https://doi.org/10.5281/zenodo.18732831}
+}
